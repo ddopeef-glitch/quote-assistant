@@ -1,4 +1,6 @@
+import io
 from pathlib import Path
+import sys
 
 import fitz
 import pytest
@@ -8,6 +10,7 @@ from config import MASTER_DATA_FILE
 from src import core, agent_inquiry
 from src.demo import recognize_demo
 from scripts.create_demo_data import make_book
+from scripts import create_demo_data
 
 
 def button(app, label):
@@ -20,6 +23,22 @@ def test_setup_never_replaces_an_existing_workbook(tmp_path):
     with pytest.raises(FileExistsError):
         make_book(path)
     assert path.read_bytes() == b"user-owned"
+
+
+def test_setup_handles_non_unicode_stdout_and_preserves_reruns(tmp_path, monkeypatch):
+    output = io.BytesIO()
+    stdout = io.TextIOWrapper(output, encoding="cp1252", errors="strict")
+    monkeypatch.setattr(sys, "stdout", stdout)
+    monkeypatch.setattr(create_demo_data, "ROOT", tmp_path)
+    create_demo_data.main()
+    books = {path: path.read_bytes() for path in tmp_path.rglob("*.xlsx")}
+    assert len(books) == 2
+    create_demo_data.main()
+    assert all(path.read_bytes() == content for path, content in books.items())
+    stdout.flush()
+    messages = output.getvalue().decode("cp1252")
+    assert messages.count("Created synthetic:") == 2
+    assert messages.count("Preserved existing:") == 2
 
 
 def test_filled_failure_placeholder_cannot_be_confirmed_or_priced():
