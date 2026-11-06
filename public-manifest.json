@@ -1,5 +1,6 @@
 {
   ".env.example": "dc3f57a3a036f70c8e8334eb735b9f5a96941ee2d074a5e62972f206e4db1a7f",
+  ".gitattributes": "77b78aa7fa701193bcc6573257dedc805b5a8caf7b52c61a1848943f030a3b46",
   ".github/workflows/tests.yml": "d2857af2a8f5049c986ffc246fa8ef8c6099efc6a56479fb8126bb8ee4282bf2",
   ".gitignore": "2dcd35b0b536a1ac48bd4718cdaeb60a1e0439740f7a4dbf20a4ba4837705375",
   ".streamlit/config.toml": "26ffeab38a5752d1923707d02da41e5c314c27855134537a85555241890f6c4c",
