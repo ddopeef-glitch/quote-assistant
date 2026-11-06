@@ -112,6 +112,7 @@ def make_book(path, *, empty=False):
 
 
 def main():
+    sys.stdout.reconfigure(errors="backslashreplace")
     for path, empty in ((ROOT / "主数据/标准产品价格表.xlsx", False),
                         (ROOT / "模板/标准产品价格表_空白模板.xlsx", True)):
         if path.exists():
