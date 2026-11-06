@@ -46,10 +46,18 @@ python -m streamlit run app.py
 
 升级引起的 AppTest 文件路径与 Session State 接口变化均已适配，所有原有业务断言继续执行。发布清单在审阅源码、测试、文档和合成图片后更新；历史 ZIP 保留，修复版单独打包。
 
+## 2026-11-06 私库上传补充验证
+
+上传到独立的 GitHub 私有仓库后，保留原企业仓库与历史。密钥模式扫描及本机凭据比对均未命中；示例配置中的 API Key 为空，上传范围由清单限定。
+
+补充 `.gitattributes`，在开启 `core.autocrlf=true` 时验证全部 50 个发布文件检出后仍与审核内容逐字节一致。GitHub 英文 Windows 运行环境暴露了初始化脚本打印中文路径时的 `cp1252` 编码异常，已改为对无法显示的字符输出转义；回归测试同时检查首次生成成功及重复运行不覆盖现有工作簿。
+
+修复后本地完整离线回归为 **382 passed**。远端 Windows / Ubuntu 的运行状态、提交与日志见 [GitHub Actions](https://github.com/ddopeef-glitch/quote-assistant/actions/workflows/tests.yml)，不得将中间提交的运行状态代替最终版本结果。
+
 ## 仍未验证的边界
 
 - 未调用真实 DeepSeek API、未重新加载 PaddleOCR 模型；原生内存/显存释放、模型效果和硬件性能未实测。
 - 原项目非手写 100%、手写 90% 为作者确认的历史字段统计，本轮未独立复算；现存不同阶段报告与范围见 [评测说明](EVALUATION.md)。
 - 未执行真实企业整单、生产部署、实际打印或节时收益验收。
-- 本轮完整回归在 Windows 执行；GitHub Actions 配置了 Windows / Ubuntu，但尚未上传触发远端运行，未声称 Linux / macOS 完整验收。
-- 自动发布检查不是任意文件已脱敏或系统无漏洞的证明。代码许可尚未选择，未上传 GitHub。
+- 本地完整回归在 Windows 执行；GitHub Actions 执行 Windows / Ubuntu 离线回归，真实 OCR、跨机打印和 macOS 尚未验收。
+- 自动发布检查不是任意文件已脱敏或系统无漏洞的证明。代码许可尚未选择，仓库保持私有，等待作者检查后决定是否公开。
