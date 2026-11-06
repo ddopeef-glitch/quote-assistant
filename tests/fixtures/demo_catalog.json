@@ -1,0 +1,389 @@
+{
+  "products": [
+    {
+      "catalog_id": "cat_e867f2e44d236b03",
+      "category": "沟槽",
+      "product_name": "90°弯头",
+      "specification": "108",
+      "price_marker": "b",
+      "aliases": [
+        "90弯头",
+        "弯头",
+        "沟槽弯头"
+      ],
+      "status": "启用"
+    },
+    {
+      "catalog_id": "cat_1e2fb4a714c95fb8",
+      "category": "沟槽",
+      "product_name": "90°弯头",
+      "specification": "114",
+      "price_marker": "b",
+      "aliases": [
+        "90弯头",
+        "弯头",
+        "沟槽弯头"
+      ],
+      "status": "启用"
+    },
+    {
+      "catalog_id": "cat_5d2c6ec2d649625c",
+      "category": "沟槽",
+      "product_name": "90°弯头",
+      "specification": "11422.5",
+      "price_marker": "b",
+      "aliases": [
+        "90弯头",
+        "弯头",
+        "沟槽弯头"
+      ],
+      "status": "待补充"
+    },
+    {
+      "catalog_id": "cat_7c1f22ef9574e76b",
+      "category": "沟槽",
+      "product_name": "90°弯头",
+      "specification": "16522.5",
+      "price_marker": "b",
+      "aliases": [
+        "90弯头",
+        "弯头",
+        "沟槽弯头"
+      ],
+      "status": "待补充"
+    },
+    {
+      "catalog_id": "cat_e43e2a1bfe4d3e29",
+      "category": "沟槽",
+      "product_name": "90°弯头",
+      "specification": "76",
+      "price_marker": "b",
+      "aliases": [
+        "90弯头",
+        "弯头",
+        "沟槽弯头"
+      ],
+      "status": "启用"
+    },
+    {
+      "catalog_id": "cat_6bdc5ab74dcc705c",
+      "category": "沟槽",
+      "product_name": "卡箍",
+      "specification": "76",
+      "price_marker": "b",
+      "aliases": [],
+      "status": "启用"
+    },
+    {
+      "catalog_id": "cat_92f572eb4fd50e8a",
+      "category": "玛钢",
+      "product_name": "三通",
+      "specification": "25",
+      "price_marker": "a",
+      "aliases": [
+        "t",
+        "三通"
+      ],
+      "status": "启用"
+    },
+    {
+      "catalog_id": "cat_a2055368832330a5",
+      "category": "玛钢",
+      "product_name": "三通",
+      "specification": "25",
+      "price_marker": "b",
+      "aliases": [
+        "t",
+        "三通"
+      ],
+      "status": "启用"
+    },
+    {
+      "catalog_id": "cat_8c9d2b1aca7779bf",
+      "category": "玛钢",
+      "product_name": "三通",
+      "specification": "32x25x25",
+      "price_marker": "a",
+      "aliases": [
+        "t",
+        "三通"
+      ],
+      "status": "启用"
+    },
+    {
+      "catalog_id": "cat_79fa560baf47e2da",
+      "category": "玛钢",
+      "product_name": "三通",
+      "specification": "40x25",
+      "price_marker": "b",
+      "aliases": [
+        "t",
+        "三通"
+      ],
+      "status": "启用"
+    },
+    {
+      "catalog_id": "cat_2bccc0b80cf12a84",
+      "category": "玛钢",
+      "product_name": "三通",
+      "specification": "40x25x32",
+      "price_marker": "b",
+      "aliases": [
+        "t",
+        "三通"
+      ],
+      "status": "启用"
+    },
+    {
+      "catalog_id": "cat_b948fce5f6b970e0",
+      "category": "玛钢",
+      "product_name": "三通",
+      "specification": "50",
+      "price_marker": "b",
+      "aliases": [
+        "t",
+        "三通"
+      ],
+      "status": "启用"
+    },
+    {
+      "catalog_id": "cat_1609bb5bcc729906",
+      "category": "玛钢",
+      "product_name": "三通",
+      "specification": "50x20",
+      "price_marker": "a",
+      "aliases": [
+        "t",
+        "三通"
+      ],
+      "status": "启用"
+    },
+    {
+      "catalog_id": "cat_05eae17c7f2e6d02",
+      "category": "玛钢",
+      "product_name": "异径三通",
+      "specification": "25",
+      "price_marker": "a",
+      "aliases": [
+        "t",
+        "三通"
+      ],
+      "status": "启用"
+    },
+    {
+      "catalog_id": "cat_2f5f4549811840b5",
+      "category": "玛钢",
+      "product_name": "异径三通",
+      "specification": "25",
+      "price_marker": "b",
+      "aliases": [
+        "t",
+        "三通"
+      ],
+      "status": "启用"
+    },
+    {
+      "catalog_id": "cat_3fcd23dcc17f68f0",
+      "category": "玛钢",
+      "product_name": "异径三通",
+      "specification": "32x25x25",
+      "price_marker": "a",
+      "aliases": [
+        "t",
+        "三通"
+      ],
+      "status": "启用"
+    },
+    {
+      "catalog_id": "cat_b82acb36185acb1c",
+      "category": "玛钢",
+      "product_name": "异径三通",
+      "specification": "40x25",
+      "price_marker": "b",
+      "aliases": [
+        "t",
+        "三通"
+      ],
+      "status": "启用"
+    },
+    {
+      "catalog_id": "cat_022824f26dcdb6fc",
+      "category": "玛钢",
+      "product_name": "异径三通",
+      "specification": "40x25x32",
+      "price_marker": "b",
+      "aliases": [
+        "t",
+        "三通"
+      ],
+      "status": "启用"
+    },
+    {
+      "catalog_id": "cat_ec5d049b2e874b04",
+      "category": "玛钢",
+      "product_name": "异径三通",
+      "specification": "50",
+      "price_marker": "b",
+      "aliases": [
+        "t",
+        "三通"
+      ],
+      "status": "启用"
+    },
+    {
+      "catalog_id": "cat_4c6b2a075de27aac",
+      "category": "玛钢",
+      "product_name": "异径三通",
+      "specification": "50x20",
+      "price_marker": "a",
+      "aliases": [
+        "t",
+        "三通"
+      ],
+      "status": "启用"
+    },
+    {
+      "catalog_id": "cat_63e990e934b16c6a",
+      "category": "玛钢",
+      "product_name": "异径三通",
+      "specification": "50x20",
+      "price_marker": "a",
+      "aliases": [
+        "t",
+        "三通"
+      ],
+      "status": "启用"
+    },
+    {
+      "catalog_id": "cat_8e5f4bfb18b05cef",
+      "category": "玛钢",
+      "product_name": "异径管箍",
+      "specification": "25",
+      "price_marker": "b",
+      "aliases": [
+        "管古"
+      ],
+      "status": "启用"
+    },
+    {
+      "catalog_id": "cat_70cc7b7fe2c96ff9",
+      "category": "玛钢",
+      "product_name": "弯头",
+      "specification": "25",
+      "price_marker": "a",
+      "aliases": [
+        "90°弯头",
+        "90弯头"
+      ],
+      "status": "启用"
+    },
+    {
+      "catalog_id": "cat_b12331fad09c7c02",
+      "category": "玛钢",
+      "product_name": "弯头",
+      "specification": "25",
+      "price_marker": "b",
+      "aliases": [
+        "90°弯头",
+        "90弯头"
+      ],
+      "status": "启用"
+    },
+    {
+      "catalog_id": "cat_1f161c513e7dcff1",
+      "category": "玛钢",
+      "product_name": "弯头",
+      "specification": "65",
+      "price_marker": "A",
+      "aliases": [
+        "90°弯头",
+        "90弯头"
+      ],
+      "status": "启用"
+    },
+    {
+      "catalog_id": "cat_055c3908c6dce3ce",
+      "category": "玛钢",
+      "product_name": "弯头",
+      "specification": "65",
+      "price_marker": "a",
+      "aliases": [
+        "90°弯头",
+        "90弯头"
+      ],
+      "status": "启用"
+    },
+    {
+      "catalog_id": "cat_73572fa6167223d5",
+      "category": "玛钢",
+      "product_name": "弯头",
+      "specification": "65",
+      "price_marker": "b",
+      "aliases": [
+        "90°弯头",
+        "90弯头"
+      ],
+      "status": "启用"
+    },
+    {
+      "catalog_id": "cat_d8f411ef91bd169b",
+      "category": "玛钢",
+      "product_name": "管箍",
+      "specification": "25",
+      "price_marker": "b",
+      "aliases": [
+        "管古"
+      ],
+      "status": "启用"
+    },
+    {
+      "catalog_id": "cat_2bfd8f6b580d0ab3",
+      "category": "球铁",
+      "product_name": "异径三通",
+      "specification": "25",
+      "price_marker": "b",
+      "aliases": [
+        "三通"
+      ],
+      "status": "启用"
+    },
+    {
+      "catalog_id": "cat_72b444ad9f260fe6",
+      "category": "球铁",
+      "product_name": "球铁三通",
+      "specification": "25",
+      "price_marker": "b",
+      "aliases": [
+        "三通"
+      ],
+      "status": "启用"
+    },
+    {
+      "catalog_id": "cat_629ef3654ca84292",
+      "category": "球铁",
+      "product_name": "球铁弯头",
+      "specification": "25",
+      "price_marker": "b",
+      "aliases": [],
+      "status": "启用"
+    }
+  ],
+  "grade_mappings": [
+    {
+      "raw": "中",
+      "price_marker": "a"
+    },
+    {
+      "raw": "好",
+      "price_marker": "b"
+    },
+    {
+      "raw": "蓝袋",
+      "price_marker": "b"
+    },
+    {
+      "raw": "黑袋",
+      "price_marker": "a"
+    }
+  ]
+}
